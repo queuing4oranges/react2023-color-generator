@@ -9,15 +9,14 @@ export default function ColorList({colors}) {
   
 
   return (
-    <div>    
+    <div className='colors-container'>    
         {colors.map((item, index) => {
           const id = nanoid();
         
           return(
-            <div key={id}>
+            <div className='color' key={id}>
                 <SingleColor item={item} index={index}/>
             </div>
-  
             )
         })}
     </div>

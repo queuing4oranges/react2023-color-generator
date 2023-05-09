@@ -17,13 +17,9 @@ const App = () => {
       setColors(newColors)
     } catch(error) {
       console.log(error)
-      //toast.error('That didnt work')
       toast.error(error.message)
     }
-
   }
-  
-  // toast.success('Halleluja! Well done.')
 
   return (
     <div>
