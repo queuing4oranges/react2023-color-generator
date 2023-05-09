@@ -13,7 +13,7 @@ const App = () => {
   const addColor = (color) => {
     //setup in try/catch in case user doesnt provide correct values
     try{
-      const newColors = new Values(color).all(10)
+      const newColors = new Values(color).all(10) //10 = value of increment
       setColors(newColors)
     } catch(error) {
       console.log(error)
