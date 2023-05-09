@@ -270,11 +270,11 @@ input[type='text'] {
   font-size: 1.25rem;
   max-width: 200px;
 }
-input[type='color'] {
+/* input[type='color'] {
   height: 100%;
   background-color: var(--white);
   border-color: var(--white);
-}
+} */
 .container .btn {
   border-radius: 0;
   border-top-right-radius: var(--borderRadius);
@@ -314,4 +314,9 @@ input[type='color'] {
 }
 .color-light .percent-value {
   color: var(--white);
+}
+
+/**/
+.light {
+  color: beige;
 }
